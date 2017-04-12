@@ -1,0 +1,84 @@
+/******************* Fonts **********************/
+@font-face {
+    font-family: 'IRANSansWeb';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/IRANSansWeb(FaNum)_Light.eot');
+    src: url('../fonts/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/IRANSansWeb(FaNum)_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSansWeb(FaNum)_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+
+/******************* should have **********************/
+body {
+    font-family: "IRANSansWeb", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+* {
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    cursor: pointer;
+}
+.ltr {
+    direction: ltr;
+}
+
+.rtl {
+    direction: rtl;
+}
+.right {
+    float: right !important;
+}
+.left {
+    float: left !important;
+}
+
+/******************* Header **********************/
+.container{
+  padding: 20px;
+}
+.banner{
+  padding: 0;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.navbar-inverse{
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  width: 80%;
+}
+.thumbnail{
+  margin: 0 10px 0 0;
+}
+.btn-primary{
+  margin: 15px;
+  padding: 10px;
+}
+hr{
+  margin: 70px 0;
+  border-top: 1px solid #eee;
+}
+
+/******************* Footer **********************/
+
+
+
+/******************* Responsive **********************/
+
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+@media (min-width: 425px) {
+
+}
